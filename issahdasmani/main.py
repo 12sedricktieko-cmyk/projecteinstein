@@ -16,7 +16,12 @@ def transport_types():
     return("trotro,uber,taxi,metro mass,okada")
 print(transport_types())
 
-first_name = "King"
+
+def naming_conventions():
+    print("snake_case,camel_Case,kebbab-case")
+naming_conventions()
+
+first_name = "Issah"
 last_name = "Ruuhullah"
 full_name = first_name+ " " +last_name
 print(full_name)
